@@ -1,261 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap");
 input {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 body {
-    background-color: rgb(226, 221, 221);
+  background-color: rgb(226, 221, 221);
 }
 
 #container {
-    display: flex;
-    flex-direction: row;
-    width: 770px;
-    margin: 0 auto;
-    background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 770px;
+  height: 1120px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 #container-sideblue {
-    width: 50px;
-    background-color: rgb(22, 106, 184);
+  width: 50px;
+  background-color: rgb(22, 106, 184);
 }
 
 #container-content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #container-content-head {
-    margin: 0 auto;
-    width: 173px;
+  margin: 0 auto;
+  width: 173px;
 }
 
 #uplavt {
-    position: relative;
-    left: 57px;
-    bottom: 24px;
-    border: none;
-    background-color: white;
+  position: relative;
+  left: 57px;
+  bottom: 24px;
+  border: none;
+  background-color: white;
 }
 
 #container-content-body {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #container-content-body-left {
-    width: 335px;
-    padding-left: 40px;
+  width: 335px;
+  padding-left: 40px;
 }
 
 #container-content-body-right {
-    width: 345px;
+  width: 345px;
 }
 
 .title {
-    font-family: 'Barlow Condensed', sans-serif;
-    color: rgb(22, 106, 184);
-    border: 2px solid lightgray;
-    border-left: none;
-    border-right: none;
-    width: 290px;
-    padding: 7px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: rgb(22, 106, 184);
+  border: 2px solid lightgray;
+  border-left: none;
+  border-right: none;
+  width: 290px;
+  padding: 7px;
 }
 
 .contentcareergoal {
-    font-family: 'Barlow', sans-serif;
-    text-align: justify;
-    width: 290px;
-    height: 150px;
-    padding: 10px;
-    word-spacing: 3px;
-    line-height: 20px;
-    font-size: 12px;
+  font-family: "Barlow", sans-serif;
+  text-align: justify;
+  width: 290px;
+  height: 180px;
+  padding: 10px;
+  word-spacing: 3px;
+  line-height: 20px;
+  font-size: 12px;
 }
 
 .content1 {
-    font-family: 'Barlow', sans-serif;
-    width: 290px;
-    height: 210px;
-    padding: 10px;
-    word-spacing: 3px;
+  font-family: "Barlow", sans-serif;
+  width: 290px;
+  height: 235px;
+  padding: 10px;
+  word-spacing: 3px;
 }
 
 .content2 {
-    height: 370px;
-    word-spacing: 3px;
+  height: 370px;
+  word-spacing: 3px;
 }
 
 .content3 {
-    height: 100px;
-    word-spacing: 3px;
+  height: 100px;
+  word-spacing: 3px;
 }
 
 .content-head1 {
-    font-family: 'Alegreya Sans', sans-serif;
-    padding-bottom: 5px;
-    font-size: 15px;
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .content-head2 {
-    font-size: 12px;
-    font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.ul-2-3 {
+  margin: 5px 0 5px 30px;
+}
+.ul-4 {
+  margin: 5px 0 5px 0;
+  margin-left: 18px !important;
 }
 
 .content-list {
-    font-size: 12px;
+  position: relative;
+  font-size: 12px;
+  left: -12px;
 }
 
 .contentlist {
-    font-family: 'Barlow', sans-serif;
-    text-align: justify;
-    width: 255px;
-    font-size: 12px;
-    line-height: 17px;
+  font-family: "Barlow", sans-serif;
+  text-align: justify;
+  width: 255px;
+  font-size: 12px;
+  word-spacing: 3px;
+  line-height: 20px;
 }
 
 .contentlistcompetencies {
-    font-family: 'Barlow', sans-serif;
-    text-align: justify;
-    width: 255px;
-    font-size: 12px;
-    line-height: 17px;
-    position: relative;
-    left: -10px;
-}
-
-.content-list-ul {
-    padding-inline-start: 15px;
-    list-style-type: disc;
-    margin-block-start: 5px;
-    margin-block-end: 5px;
+  font-family: "Barlow", sans-serif;
+  text-align: justify;
+  width: 255px;
+  font-size: 12px;
+  word-spacing: 3px;
+  line-height: 20px;
+  position: relative;
+  left: -12px;
 }
 
 #img {
-    padding: 20px;
-    width: 134.207px;
-    height: 139.515px;
-    border: none;
-}
-
-#avt {
-    display: none;
+  padding: 20px;
+  width: 134.207px;
+  height: 139.515px;
+  border: none;
 }
 
 label {
-    cursor: pointer;
-    color: white;
+  cursor: pointer;
+  color: white;
 }
 
 #container-content-head-name {
-    overflow: visible;
-    font-family: 'Barlow Condensed', sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.2em;
-    font-weight: 700;
-    color: rgb(22, 106, 184);
-    position: relative;
-    bottom: 30px;
-    text-transform: uppercase;
-    font-size: 30px;
-    width: 200px;
-    border: none;
+  overflow: visible;
+  font-family: "Barlow Condensed", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: rgb(22, 106, 184);
+  position: relative;
+  bottom: 30px;
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 200px;
+  border: none;
 }
 
 #container-content-head-position {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 700;
-    color: rgb(68, 68, 64);
-    line-height: 1.2;
-    letter-spacing: 0.3em;
-    position: relative;
-    left: 54px;
-    bottom: 30px;
-    text-transform: uppercase;
-    border: none;
-    font-size: 17px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  color: rgb(68, 68, 64);
+  line-height: 1.2;
+  letter-spacing: 0.3em;
+  position: relative;
+  left: 33px;
+  bottom: 30px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 17px;
 }
 
 .line {
-    width: 300px;
-    height: 5px;
-}
-
-#container-content-body-left-maincompetencies-each {
-    list-style-image: url(./tick.png);
-    display: flex;
-    flex-direction: column;
+  width: 300px;
+  height: 5px;
 }
 
 .container-content-body-left-reachmeat {
-    height: 136px;
-}
-
-#phone {
-    list-style-image: url(./phone.png);
-    position: relative;
-    left: 12px;
-    top: 9px;
-}
-
-#linkfb {
-    list-style-image: url(./social.png);
-    position: relative;
-    left: 2px;
-    top: 2px;
-}
-
-#mail {
-    list-style-image: url(./mail.png);
-    position: relative;
-    left: 7px;
-    top: 7px;
-}
-
-#address {
-    list-style-image: url(./gps.png);
-    position: relative;
-    left: 10px;
-    top: 2px;
-}
-
-#av {
-    position: relative;
-    left: 10px;
-    top: 10px;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  height: 136px;
 }
 
 .container-content-body-left-reachmeat-each {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-.fas {
-    color: rgb(22, 106, 184);
-    padding: 5px;
-    padding-top: 10px;
+.fas,
+.fab {
+  color: rgb(22, 106, 184);
 }
-
-.fa-mobile-alt {
-    position: relative;
-    left: 5px;
-}
-
-.fa-at {
-    position: relative;
-    left: 2px;
-}
-
-.fa-map-marker-alt {
-    position: relative;
-    left: 5px;
-}
-
-.fa-star {
-    position: relative;
-    left: 5px;
-    top: 10px;
+.list-reachmeat {
+  font-family: "Barlow", sans-serif;
+  text-align: justify;
+  width: 255px;
+  font-size: 12px;
+  word-spacing: 3px;
+  line-height: 20px;
 }
