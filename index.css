@@ -78,7 +78,7 @@ body {
 .content1 {
   font-family: "Barlow", sans-serif;
   width: 290px;
-  height: 235px;
+  /* height: 235px; */
   padding: 10px;
   word-spacing: 3px;
 }
@@ -173,8 +173,9 @@ label {
   line-height: 1.2;
   letter-spacing: 0.3em;
   position: relative;
-  left: 33px;
+  left: 5px;
   bottom: 30px;
+  text-align: center;
   text-transform: uppercase;
   border: none;
   font-size: 17px;
